@@ -5,13 +5,17 @@ html, body{
   background-color:white;
   font-family: 'Titillium Web', sans-serif;
   font-size:100%;
-  line-height: 1.6em;
+  line-height: 1.9em;
 }
 
 a{
   color:#34DDDD;
 
 }
+
+  a.shop-button {
+    display:none;
+  }
 
 a:visited{
   color:inherit;
@@ -390,12 +394,34 @@ footer{
 }
 
 
+@media only screen and (max-width: 730px) {
+  .jumbo{
+    background-size: cover;
+    height: 400px;
+  }
 
-@media only screen and (max-device-width: 380px) {
+  .front{
+    height: 400px;
+    background-position-y: 0;
+  }
+
+  h1, h2, h3{
+    line-height: 1.3em;
+  }
+
+  .bandmember-image{
+    width: 80%;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
   body{
     line-height: 1.3em;
 
   }
+
 
   .nav{
     display:none;
@@ -406,7 +432,6 @@ footer{
   .front{
     background-size:cover;
     height: 400px;
-    background-position-y: -450px;
   }
 
   html{
@@ -477,16 +502,15 @@ footer{
 
   a.shop-button {
     text-align:center;
-    width: auto;
+    width: 50%;
     margin: 0 auto;
     display: block;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
+    padding: 10px 15px;
+    outline: 1px solid black;
+    background-color:#FFFFFF;
     text-decoration: none;
     color: initial;
-}
+  }
 
   .footer-text{
     font-size:90%;
@@ -496,8 +520,12 @@ footer{
     height:120px;
   }
 
+  .event-name{
+    font-size: 100%;
+  }
+
   .event-detail{
-    font-size:150%;
+    font-size:100%;
   }
 
   .music{
