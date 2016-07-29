@@ -1,0 +1,13 @@
+{% if all_events %}
+  <ul>
+    {% for event in all_events %}
+      <li><h1><a href="{% url 'events:detail' event.id %}">{{ event.name }}</a></h1>
+          <p>{{ event.date }}</p>
+          <p>{{ event.description }}</p>
+
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+<p>You have no events</p>
+{% endif %}

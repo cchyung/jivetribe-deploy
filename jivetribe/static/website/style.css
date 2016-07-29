@@ -1,0 +1,526 @@
+html, body{
+  margin:0;
+  width:100%;
+  color:black;
+  background-color:white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:100%;
+  line-height: 1.6em;
+}
+
+a{
+  color:#34DDDD;
+
+}
+
+a:visited{
+  color:inherit;
+}
+
+a:hover{
+  color:black;
+}
+
+p{
+  margin: 0;
+  font-size:130%;
+  padding-bottom: 30px;
+}
+
+.front img{
+  display:block;
+  padding-top: 40px;
+  margin: 0 auto;
+  position:relative;
+  background-position-y: -500px;
+  height:300px;
+  width:300px;
+
+}
+
+.feature img{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.center{
+  text-align:center;
+}
+
+.secondary{
+  background-color:#e6e6e6;
+}
+
+a:hover{
+  background-color:inherit;
+}
+
+h1, h2, h3, h4{
+  display:block;
+  font-family: 'Oswald', sans-serif;
+  font-weight:600;
+}
+
+h1{
+  font-size:400%;
+}
+
+footer{
+  height: 60px;
+  background-color: black;
+}
+
+.footer-text{
+  font-size:100%;
+  width:50%;
+  margin:0 auto;
+  padding-bottom:0px;
+  color: white;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position:relative;
+
+}
+
+.footer-link{
+  color:#34DDDD;
+}
+
+.footer-link:hover{
+  color:white;
+}
+
+.main{
+  color:#34DDDD;
+}
+
+.nav{
+  position:relative;
+  list-style: none;
+  top: 30%;
+  display:block;
+  margin: 0;
+  width:80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-logo{
+  position:relative;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.nav-item{
+  display:inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin: 30px 0px;
+  margin-right: -4px;
+  text-align:center;
+  width:20%;
+  font-weight:600;
+  font-size:110%;
+  text-transform: uppercase;
+}
+
+.nav-item:hover{
+
+}
+
+.nav-link{
+  text-decoration:none;
+  -webkit-transition: color 0.2s linear;
+          transition: color 0.2s linear;
+  color:black;
+}
+
+.nav-link:hover{
+  color:#34DDDD;
+}
+
+.page{
+  width:100%;
+}
+
+.content-section{
+  padding-bottom:50px;
+}
+
+.content-block{
+  margin:0 auto;
+  padding-top:20px;
+  width:60%;
+}
+
+.content-block-small{
+  width:45%;
+}
+
+.music{
+  padding: 20px 0;
+
+}
+
+.jumbo{
+  height:600px;
+  background-size:120%;
+}
+
+.front{
+  height: 700px;
+  background-size: cover;
+
+}
+
+.jumbo-text{
+  display:block;
+  position:relative;
+  padding-top:10%;
+  padding-left:50px;
+  font-weight:600;
+  font-size:400%;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.jumbo-text-center{
+  padding-left: 0;
+  width:100%;
+  text-align: center;
+}
+
+.jumbo-text-middle{
+  padding-top:0;
+  position: relative;
+  display:block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.navbar-home{
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width:100%;
+  background-color: white;
+  margin:0 auto;
+  display:block;
+}
+
+.sticky-nav-fixed{
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.44);
+
+}
+
+.sticky-nav-ghost{
+  width: 100%;
+
+}
+
+.nav-anchor{
+  position:relative;
+  bottom: 100px;
+}
+
+.contact-column{
+  padding-top:50px;
+  vertical-align:top;
+  width:24%;
+  display:inline-block;
+  height:220px;
+  text-align:center;
+}
+
+.contact-column img{
+  height:125px;
+  width:125px;
+  display:block;
+  margin: 0 auto;
+  padding-bottom:20px;
+}
+
+.contact-container{
+  height:300px;
+  padding-top:20px;
+}
+
+.contact-column a{
+  color:black;
+  display:block;
+}
+
+.contact-column p{
+  text-decoration: underline;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-link:hover{
+  color:#34DDDD;
+
+}
+
+
+/*------------Team Style--------------*/
+.bandmember-container{
+  padding: 100px 0px;
+}
+.bandmember{
+  padding: 30px 0;
+  width: 24%;
+  display: inline-block;
+  vertical-align:top;
+
+}
+.bandmember-image{
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.bandmember-name{
+  padding-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bandmember-title{
+  padding-top: 10px;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.bandmember-description{
+  text-align:center;
+}
+
+/*------------Events Style--------------*/
+.event-name{
+    display:block;
+    padding-bottom:20px;
+    margin:0;
+}
+
+.event-detail{
+  display:inline-block;
+  position:relative;
+  min-width:200px;
+  clear: both;
+  padding-bottom:0;
+}
+
+.events-container{
+  padding-top:30px;
+}
+
+.event{
+  width:100%;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+  height:auto;
+  padding:15px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.event:hover{
+  color:#34DDDD;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1100px) {
+  .content-block{
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+
+  .contact-container{
+    height: 1100px;
+  }
+
+  .contact-column{
+      padding-top: 30px;
+      display: block;
+      margin: 0;
+      width:60%;
+      margin: 0 auto;
+      height: auto;
+      padding-bottom: 40px;
+  }
+
+  .contact-link{
+    font-size:100%;
+  }
+
+  .contact-icon{
+    height: 135px;
+    width: 135px;
+    padding-bottom: 20px;
+  }
+
+}
+
+
+
+@media only screen and (max-device-width: 380px) {
+  body{
+    line-height: 1.3em;
+
+  }
+
+  .nav{
+    display:none;
+  }
+  .jumbo{
+    height: 350px;
+  }
+  .front{
+    background-size:cover;
+    height: 400px;
+    background-position-y: -450px;
+  }
+
+  html{
+    font-size:145%;
+  }
+
+  h1, h2, h3{
+    line-height: 1.3em;
+  }
+
+  h1{
+    font-size: 200%;
+  }
+
+
+  h2{
+    font-size:190%;
+  }
+
+  p{
+    font-size:140%;
+    line-height: 1.3em;
+  }
+
+  .nav-link{
+    font-size: 130%;
+  }
+
+  .jumbo{
+    background-size: 150% 150%;
+    background-position: bottom center;
+  }
+
+  .content-block{
+    width: 85%;
+  }
+
+  .footer-text{
+    width: 100%;
+    margin: 0;
+    text-align:center;
+
+  }
+
+  .contact-column{
+      display: block;
+      margin: 0 auto;
+      width:60%;
+      height: auto;
+      padding-bottom: 40px;
+      text-align: center;
+  }
+
+  .contact-link{
+    font-size:70%;
+    text-align:center;
+  }
+
+  .contact-icon{
+    height: 225px;
+    width: 225px;
+    padding-bottom: 20px;
+  }
+
+  #contact-section{
+    height: 1350px;
+  }
+
+  a.shop-button {
+    text-align:center;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+  .footer-text{
+    font-size:90%;
+  }
+
+  footer{
+    height:120px;
+  }
+
+  .event-detail{
+    font-size:150%;
+  }
+
+  .music{
+    width: 100%;
+    font-size: 150%;
+  }
+
+  .jumbo-text{
+    font-size: 230%;
+  }
+
+  .bandmember{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+
+  .bandmember-image{
+    width: 80%;
+    height: auto;
+
+  }
+
+
+}

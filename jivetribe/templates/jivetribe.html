@@ -1,0 +1,86 @@
+{% load cms_tags menu_tags sekizai_tags staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Jive Tribe</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {% render_block "css" %}
+    <link rel="stylesheet" type="text/css" href="{% static 'website/style.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="{% static 'website/jquery.stellar.min.js' %}"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700|Titillium+Web' rel='stylesheet' type='text/css'>
+    <script src="{% static 'website/smooth-scroll.js' %}"></script>
+    <script src="{% static 'website/headercontroller.js' %}"></script>
+    <script src="{% static 'website/animation.js' %}"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).stellar();
+        });
+    </script>
+</head>
+<body>
+{% cms_toolbar %}
+<div class="page">
+    <a id="home" class="smooth nav-anchor"></a>
+
+    {% placeholder 'front' %}
+    <div class="sticky-nav-ghost"></div>
+    <div class="navbar-home sticky-nav">
+        <ul class="nav">
+            <li class="nav-item nav-item-left"><a class="nav-link" data-scroll href="#home">Home</a></li>
+            <li class="nav-item nav-item-left"><a class="nav-link" data-scroll href="#about">Bio</a></li>
+            <li class="nav-item nav-item-right"><a class="nav-link" data-scroll href="#band">The Band</a></li>
+            <li class="nav-item nav-item-right"><a class="nav-link" data-scroll href="#contact">Booking</a></li>
+            <li class="nav-item nav-item-right"><a class="nav-link" href="https://shop.thejivetribeband.com">The Shop</a></li>
+        </ul>
+    </div>
+    <div class="content-section feature content-block">
+        {% placeholder 'feature' %}
+        <a class="shop-button" href="https://shop.thejivetribeband.com">SHOP</a>
+    </div>
+
+
+    <div class="page">
+        <a id="about" class="nav-anchor"></a>
+        {% placeholder 'about' %}
+        <div class="content-section">
+            <div class='content-block'>
+                {% placeholder 'music' %}
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="content-block">
+                {% placeholder 'events' %}
+            </div>
+        </div>
+
+    </div>
+    <div class="page">
+        <a id="band" class="nav-anchor"></a>
+        {% placeholder 'band' %}
+    </div>
+    <div class="page">
+        <a id="contact" class="nav-anchor"></a>
+        {% placeholder 'contact' %}
+        <div class="content-section" id="contact-section">
+            <div class="content-block">
+                <div class="contact-container">
+                    {% placeholder 'contact elements' %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer-text center">The Jive Tribe. Custom Built by <a class="footer-link"
+                                                                         href="https://www.linkedin.com/in/conner-chyung-18345b11a?trk=hp-identity-name">Conner Chyung</a>.</p>
+    </footer>
+
+</div>
+{% render_block "js" %}
+<script>
+    smoothScroll.init();
+</script>
+</body>
+</html>
