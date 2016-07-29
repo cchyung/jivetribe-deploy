@@ -13,9 +13,9 @@ a{
 
 }
 
-  a.shop-button {
-    display:none;
-  }
+a.shop-button {
+  display:none;
+}
 
 a:visited{
   color:inherit;
