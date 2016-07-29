@@ -367,7 +367,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 900px) {
 
   .contact-container{
     height: 1100px;
@@ -391,6 +391,16 @@ footer{
     height: 135px;
     width: 135px;
     padding-bottom: 20px;
+  }
+
+  .bandmember{
+    width: 49%;
+
+  }
+
+  .bandmember-image{
+    width: 80%;
+    height: auto;
   }
 
 }
