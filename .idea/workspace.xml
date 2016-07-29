@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5c21b2-3942-43f7-93ee-8bc2a3ec64e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jivetribe/static/website/style.css" afterPath="$PROJECT_DIR$/jivetribe/static/website/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jivetribe/templates/jivetribe.html" afterPath="$PROJECT_DIR$/jivetribe/templates/jivetribe.html" />
     </list>
     <ignored path="jivetribe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,17 +105,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jivetribe.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jivetribe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jivetribe/templates/jivetribe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="283">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jivetribe/static/website/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
@@ -158,9 +157,9 @@
         <option value="$PROJECT_DIR$/team/models.py" />
         <option value="$PROJECT_DIR$/team/templates/member_plugin.html" />
         <option value="$PROJECT_DIR$/team/cms_plugins.py" />
-        <option value="$PROJECT_DIR$/jivetribe/templates/jivetribe.html" />
         <option value="$PROJECT_DIR$/events/templates/event_plugin.html" />
         <option value="$PROJECT_DIR$/jivetribe/static/website/style.css" />
+        <option value="$PROJECT_DIR$/jivetribe/templates/jivetribe.html" />
       </list>
     </option>
   </component>
@@ -900,14 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jivetribe/templates/jivetribe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events/templates/event_plugin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -920,6 +911,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="439" column="3" selection-start-line="439" selection-start-column="3" selection-end-line="439" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jivetribe/templates/jivetribe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
           <folding />
         </state>
       </provider>
