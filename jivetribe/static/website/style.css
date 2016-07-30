@@ -368,9 +368,6 @@ footer{
 
 @media only screen and (max-width: 900px) {
 
-  .contact-container{
-    height: 1100px;
-  }
 
   .contact-column{
       padding-top: 30px;
