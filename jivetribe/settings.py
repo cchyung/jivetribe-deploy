@@ -28,9 +28,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '3be7r4qv=u%xli%*ut)a7icxy==3@d1ypw#$e*6k$(=du06ods'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'thejivetribeband.com',
+    'localhost',
+    '138.68.13.93'
+
+]
 
 # Application definition
 
